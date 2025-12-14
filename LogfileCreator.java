@@ -1,11 +1,13 @@
 import java.io.*;
 import java.util.*;
 
-/**
+/** CHAPTER 7: WEBLOG ANALYZER
+ * edited by Franco Acosta
  * A class for creating log files of random data.
  * 
  * @author David J. Barnes and Michael Kölling
  * @version    2016.02.29
+ * 
  */
 public class LogfileCreator
 {

@@ -8,7 +8,7 @@ import java.util.Iterator;
 import java.util.Random;
 import java.util.Scanner;
 
-/**
+/** CHAPTER 7: WEBLOG ANALYZER
  * A class to read information from a file of web server accesses.
  * Currently, the log file is assumed to contain simply
  * date and time information in the format:
@@ -34,7 +34,7 @@ public class LogfileReader implements Iterator<LogEntry>
      */
     public LogfileReader()
     {
-        this("weblog.txt");
+        this("demoLog.txt");
     }
     
     /**
